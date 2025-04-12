@@ -1,0 +1,48 @@
+<!--
+ * @Author: lcl
+ * @Date: 2025/4/10
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box1">
+        <span>box1</span>
+      </div>
+      <div class="box2">
+        <span style="color: white">box2</span>
+      </div>
+    </div>
+  </body>
+  <style>
+    .parent {
+      height: 500px;
+      width: 500px;
+      padding: 100px;
+      border: 10px black solid;
+      background: red;
+      position: relative;
+    }
+    .box1 {
+      width: 10px;
+      height: 10px;
+      padding: 50%;
+      background: rgb(0, 0, 255, 0.5);
+      /* background-color: transparent; */
+    }
+    .box2 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 50%;
+      background: black;
+      /* opacity: 0; */
+    }
+  </style>
+</html>
