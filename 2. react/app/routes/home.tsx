@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
-import Page from "@/page/01. Ref";
+// import Page from "@/page/01. Ref";
+import Page from "@/page/02. 传值";
 
 export default function Home() {
   const navicate = useNavigate();
